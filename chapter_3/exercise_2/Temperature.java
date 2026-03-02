@@ -2,11 +2,10 @@
     This code aims to convert Celcius degree to Fahrenheit degree
 */
 
-
 package chapter_3.exercise_2;
 import java.util.Scanner;
 
-public class exc_2 
+public class Temperature 
 {
     public static void main(String[] args)
     {
