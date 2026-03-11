@@ -10,6 +10,7 @@ public class GuessingNumber2
 
         if (inputNumber == randomNumber) {
             System.out.println("You're correct!");
+            return;
         } else {
             if (inputNumber > randomNumber) {
                 System.out.println("Too high.");
