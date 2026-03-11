@@ -13,19 +13,15 @@ public class GuessingNumber2
         } else {
             if (inputNumber > randomNumber) {
                 System.out.println("Too high.");
-                System.out.print("Take another guess: ");
-                Scanner in = new Scanner(System.in);
-                inputNumber = in.nextInt();
-                guessedNumber(randomNumber, inputNumber);
+                
             } else {
                 System.out.println("Too low.");
+            }
+        }
                 System.out.print("Take another guess: ");
                 Scanner in = new Scanner(System.in);
                 inputNumber = in.nextInt();
                 guessedNumber(randomNumber, inputNumber);
-            }
-        }
-
     }
 
 
